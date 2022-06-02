@@ -1,9 +1,11 @@
 .ipynb_checkpoints
 Entrega2
-figs
+figs/imagenes*
+figs/baseDatos
 AyudaProfesor
 Informe
 preprocesos
-segmentacion
+segmentacion/mask*
+segmentacion/R-CNN*
 aux.py
 codigoDeReciclaje.ipynb
