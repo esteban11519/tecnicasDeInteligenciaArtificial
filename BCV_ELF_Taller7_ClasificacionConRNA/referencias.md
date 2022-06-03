@@ -5,3 +5,5 @@
 
 
 [rrr3] D. Vargas Medina, «Fundamentos de Redes Neuronales Artificiales - Técnicas de Inteligencia Artificial: Visión de máquina», Universidad Nacional de Colombia, 19 de mayo de 2022.
+
+[bbb1] Es.wikipedia.org. 2022. «Adaline - Wikipedia, la enciclopedia libre.» [online] Available at: <https://es.wikipedia.org/wiki/Adaline> [Accessed 3 June 2022].
