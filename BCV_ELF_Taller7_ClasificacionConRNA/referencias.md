@@ -5,3 +5,7 @@
 
 
 [rrr3] D. Vargas Medina, «Fundamentos de Redes Neuronales Artificiales - Técnicas de Inteligencia Artificial: Visión de máquina», Universidad Nacional de Colombia, 19 de mayo de 2022.
+
+[rrr4] D. Vargas Medina, «Otros tipos de Redes Neuronales», Universidad Nacional de Colombia, 2 de junio de 2022.
+
+[rrr5] E. Ladino Fajardo y E. A. Higuera Bustos, Taller 1. Histogramas. Bogotá DC: Universidad Nacional de Colombia, 2022.
