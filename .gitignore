@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 Entrega2
-figs/imagenes*
+figs/imagenesSegmentadasManualmente2
 figs/baseDatos
 AyudaProfesor
 Informe
@@ -9,3 +9,4 @@ segmentacion/mask*
 segmentacion/R-CNN*
 aux.py
 codigoDeReciclaje.ipynb
+BCV_ELF_Taller7_ClasificacionConRNA/PreprocesamientoSegmentacionExtraccionCaracteristicasPCA.ipynb
