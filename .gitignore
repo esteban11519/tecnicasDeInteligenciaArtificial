@@ -7,7 +7,9 @@ Informe
 preprocesos
 segmentacion/mask*
 segmentacion/R-CNN*
+segmentacion/k-means*
+segmentacion/crecimiento*
+segmentacion/Thresho*
 aux.py
 codigoDeReciclaje.ipynb
 BCV_ELF_Taller7_ClasificacionConRNA/PreprocesamientoSegmentacionExtraccionCaracteristicasPCA.ipynb
-BCV_ELF_Taller7_ClasificacionConRNA/BCV_ELF_Taller7_ClasificacionConRNA2Punto.ipynb
