@@ -293,6 +293,7 @@ def esegmentacion(imagenes,rutaAndNombre,formato):
 
         # Zona de guardado
         #print(f'{rutaAndNombre}{i}.{formato}')
+        cv2.imwrite(f'{rutaAndNombre}{i}Original.{formato}', cv2.cvtColor(imagenes_finales[i],cv2.COLOR_RGB2BGR))
         cv2.imwrite(f'{rutaAndNombre}{i}.{formato}', cv2.cvtColor(imagen_segmentada_watershep[i],cv2.COLOR_RGB2BGR))
 
     return [imagenes_finales,image_segmentada,imagen_segmentada_watershep]
@@ -306,23 +307,30 @@ minSize=256
 
 # Importación de monilia
 n_imag_monilia=105
+# n_imag_monilia=5
 imag_monilia=[]
 
 # Importacion de Phytophthora 
 
 n_imag_fito=106
+# n_imag_fito=5
 imag_fito=[]
 
 # Importación de cacao saludable
 
 n_imag_healty=100
+# n_imag_healty=5
 imag_healty=[]
 
 # Variables para guardar 
 
-rutaGuardarFito='../../figs/imagenesSegmentadasAutomaticamente/Fito/Fito'
-rutaGuardarMonilia='../../figs/imagenesSegmentadasAutomaticamente/Monilia/Monilia'
-rutaGuardarSaludable='../../figs/imagenesSegmentadasAutomaticamente/Sana/Sana'
+# rutaGuardarFito='../../figs/imagenesSegmentadasAutomaticamente/Fito/Fito'
+# rutaGuardarMonilia='../../figs/imagenesSegmentadasAutomaticamente/Monilia/Monilia'
+# rutaGuardarSaludable='../../figs/imagenesSegmentadasAutomaticamente/Sana/Sana'
+
+rutaGuardarFito='../../figs/imagenesSegmentadasAutomaticamenteTotales/Fito/Fito'
+rutaGuardarMonilia='../../figs/imagenesSegmentadasAutomaticamenteTotales/Monilia/Monilia'
+rutaGuardarSaludable='../../figs/imagenesSegmentadasAutomaticamenteTotales/Sana/Sana'
 
 
 for i in range(n_imag_monilia):
